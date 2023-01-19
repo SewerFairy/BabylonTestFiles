@@ -4,19 +4,63 @@
         "version" : "2.0"
     },
     "extensionsUsed" : [
+        "KHR_lights_punctual",
         "KHR_materials_specular",
         "KHR_materials_ior"
     ],
+    "extensionsRequired" : [
+        "KHR_lights_punctual"
+    ],
+    "extensions" : {
+        "KHR_lights_punctual" : {
+            "lights" : [
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "spot" : {
+                        "innerConeAngle" : 0.3337942263919169,
+                        "outerConeAngle" : 0.39269909262657166
+                    },
+                    "type" : "spot",
+                    "name" : "Spot.001"
+                }
+            ]
+        }
+    },
     "scene" : 0,
     "scenes" : [
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0,
+                1
             ]
         }
     ],
     "nodes" : [
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 0
+                }
+            },
+            "name" : "Spot.001",
+            "rotation" : [
+                -0.6634014844894409,
+                0.24474169313907623,
+                -0.24474169313907623,
+                0.6634014844894409
+            ],
+            "translation" : [
+                1.9392729997634888,
+                0.7459409236907959,
+                -0.7634966969490051
+            ]
+        },
         {
             "mesh" : 0,
             "name" : "Icosphere.001",
