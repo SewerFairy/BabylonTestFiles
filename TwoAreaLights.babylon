@@ -1,0 +1,4 @@
+{"producer":{"name":"Blender","version":"3.3.1","exporter_version":"3.3.0","file":"TwoAreaLights.babylon"},
+"autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"gravity":[0,-9.81,0],"environmentTexture":"brown_photostudio_02_4k.exr","environmentTextureType":"BABYLON.HDRCubeTexture","environmentTextureSize":128,"isPBR":true,"environmentTextureRotationY":0,
+"lights":[{"name":"Area.005","id":"Area.005","type":0,"position":[1.3065,0.8253,-0.6037],"range":40,"intensityMode":0,"intensity":1,"diffuse":[0.198,0.2341,1],"specular":[0.198,0.2341,1],"radius":1},{"name":"Area.004","id":"Area.004","type":3,"direction":[0.9504,0.2925,0.106],"groundColor":[0,0,0],"range":40,"intensityMode":0,"intensity":1,"diffuse":[1,0.2955,0.1057],"specular":[1,0.2955,0.1057],"radius":1}]
+}
